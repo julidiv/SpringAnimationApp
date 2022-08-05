@@ -13,6 +13,7 @@
 		2F5CBE07289C257B00A472CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE05289C257B00A472CF /* Main.storyboard */; };
 		2F5CBE09289C257D00A472CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE08289C257D00A472CF /* Assets.xcassets */; };
 		2F5CBE0C289C257D00A472CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE0A289C257D00A472CF /* LaunchScreen.storyboard */; };
+		2F5CBE14289C2B7E00A472CF /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE13289C2B7E00A472CF /* Extension + UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F5CBE08289C257D00A472CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F5CBE0B289C257D00A472CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F5CBE0D289C257D00A472CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5CBE13289C2B7E00A472CF /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2F5CBDFF289C257B00A472CF /* AppDelegate.swift */,
 				2F5CBE01289C257B00A472CF /* SceneDelegate.swift */,
 				2F5CBE03289C257B00A472CF /* ViewController.swift */,
+				2F5CBE13289C2B7E00A472CF /* Extension + UIButton.swift */,
 				2F5CBE05289C257B00A472CF /* Main.storyboard */,
 				2F5CBE08289C257D00A472CF /* Assets.xcassets */,
 				2F5CBE0A289C257D00A472CF /* LaunchScreen.storyboard */,
@@ -111,6 +114,9 @@
 				Base,
 			);
 			mainGroup = 2F5CBDF3289C257B00A472CF;
+			packageReferences = (
+				2F5CBE15289D457200A472CF /* XCRemoteSwiftPackageReference "Spring" */,
+			);
 			productRefGroup = 2F5CBDFD289C257B00A472CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +147,7 @@
 				2F5CBE04289C257B00A472CF /* ViewController.swift in Sources */,
 				2F5CBE00289C257B00A472CF /* AppDelegate.swift in Sources */,
 				2F5CBE02289C257B00A472CF /* SceneDelegate.swift in Sources */,
+				2F5CBE14289C2B7E00A472CF /* Extension + UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +337,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,6 +363,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F5CBE15289D457200A472CF /* XCRemoteSwiftPackageReference "Spring" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LexDeBash/Spring";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2F5CBDF4289C257B00A472CF /* Project object */;
 }
