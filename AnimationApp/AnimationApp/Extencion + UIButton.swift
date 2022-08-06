@@ -12,9 +12,9 @@ import SpringAnimation
 struct Animacion {
     let preset: String
     let curve: String
-    let force: Double
-    let duration: Double
-    let delay: Double
+    let force: String
+    let duration: String
+    let delay: String
 
 }
 extension Animacion {
@@ -22,11 +22,11 @@ extension Animacion {
         
         var animate: [Animacion] = []
         
-        let presets = AnimationPreset.preset.allCases()
-        let curves = AnimationPreset.indexTwoLabel.allCases()
-        let forces = AnimationPreset.indexThreeLabel.allCases()
-        let durations = AnimationPreset.indexFourLabel.allCases()
-        let delays = AnimationPreset.indexFiveLabel.allCases()
+        let presets = AnimationPreset.allCases
+        let curves = AnimationPreset.allCases
+        let forces = AnimationPreset.allCases
+        let durations = AnimationPreset.allCases
+        let delays = AnimationPreset.allCases
 
         
         let iterationCount = min(
@@ -39,19 +39,21 @@ extension Animacion {
         
         for index in 0..<iterationCount {
             let animacion = Animacion(
-                preset: presets[index],
-                curve: curves[index],
-                force: forces[index],
-                duration: durations[index],
-                delay: delays[index]
+                preset: presets[index].rawValue,
+                curve: curves[index].rawValue,
+                force: forces[index].rawValue,
+                duration: durations[index].rawValue,
+                delay: delays[index].rawValue
             )
             
-            animacion.append(animate)
+            animate.append(animacion)
         }
         
         return animate
     }
-    
+    enum AnimacionPrecet {
+        
+    }
 }
 
 

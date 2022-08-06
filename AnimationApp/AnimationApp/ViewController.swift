@@ -17,12 +17,12 @@ class ViewController: UIViewController {
     @IBOutlet var runButton: SpringButton!
     
     @IBOutlet var swowAnimationView: SpringView!
-    let animacion = Animacion(preset: "", curve: "", force: 0.0, duration: 0.0, delay: 0.0)
+    let animacion = Animacion(preset: "", curve: "", force: "", duration: "", delay: "")
     override func viewDidLoad() {
         super.viewDidLoad()
         
        
-        // Do any additional setup after loading the view.
+     
     }
 
     @IBAction func runAnimationButton(_ sender: SpringButton) {
