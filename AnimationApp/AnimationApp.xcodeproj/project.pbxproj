@@ -7,105 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F5CBE00289C257B00A472CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBDFF289C257B00A472CF /* AppDelegate.swift */; };
-		2F5CBE02289C257B00A472CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE01289C257B00A472CF /* SceneDelegate.swift */; };
-		2F5CBE04289C257B00A472CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE03289C257B00A472CF /* ViewController.swift */; };
-		2F5CBE07289C257B00A472CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE05289C257B00A472CF /* Main.storyboard */; };
-		2F5CBE09289C257D00A472CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE08289C257D00A472CF /* Assets.xcassets */; };
-		2F5CBE0C289C257D00A472CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE0A289C257D00A472CF /* LaunchScreen.storyboard */; };
-		2F5CBE14289C2B7E00A472CF /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE13289C2B7E00A472CF /* Extension + UIButton.swift */; };
+		2F5CBE24289D760D00A472CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE23289D760D00A472CF /* AppDelegate.swift */; };
+		2F5CBE26289D760D00A472CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE25289D760D00A472CF /* SceneDelegate.swift */; };
+		2F5CBE28289D760D00A472CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE27289D760D00A472CF /* ViewController.swift */; };
+		2F5CBE2B289D760D00A472CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE29289D760D00A472CF /* Main.storyboard */; };
+		2F5CBE2D289D760F00A472CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE2C289D760F00A472CF /* Assets.xcassets */; };
+		2F5CBE30289D760F00A472CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBE2E289D760F00A472CF /* LaunchScreen.storyboard */; };
+		2F5CBE39289D786A00A472CF /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 2F5CBE38289D786A00A472CF /* SpringAnimation */; };
+		2F5CBE3B289ED13400A472CF /* Extencion + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE3A289ED13400A472CF /* Extencion + UIButton.swift */; };
+		2F5CBE3D289EE11900A472CF /* AnimacionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBE3C289EE11900A472CF /* AnimacionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F5CBDFC289C257B00A472CF /* SpringAnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F5CBDFF289C257B00A472CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F5CBE01289C257B00A472CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F5CBE03289C257B00A472CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F5CBE06289C257B00A472CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F5CBE08289C257D00A472CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F5CBE0B289C257D00A472CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2F5CBE0D289C257D00A472CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F5CBE13289C2B7E00A472CF /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
+		2F5CBE20289D760D00A472CF /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5CBE23289D760D00A472CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F5CBE25289D760D00A472CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F5CBE27289D760D00A472CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F5CBE2A289D760D00A472CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F5CBE2C289D760F00A472CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F5CBE2F289D760F00A472CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F5CBE31289D760F00A472CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5CBE3A289ED13400A472CF /* Extencion + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extencion + UIButton.swift"; sourceTree = "<group>"; };
+		2F5CBE3C289EE11900A472CF /* AnimacionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimacionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F5CBDF9289C257B00A472CF /* Frameworks */ = {
+		2F5CBE1D289D760D00A472CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5CBE39289D786A00A472CF /* SpringAnimation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F5CBDF3289C257B00A472CF = {
+		2F5CBE17289D760D00A472CF = {
 			isa = PBXGroup;
 			children = (
-				2F5CBDFE289C257B00A472CF /* SpringAnimationApp */,
-				2F5CBDFD289C257B00A472CF /* Products */,
+				2F5CBE22289D760D00A472CF /* AnimationApp */,
+				2F5CBE21289D760D00A472CF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2F5CBDFD289C257B00A472CF /* Products */ = {
+		2F5CBE21289D760D00A472CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F5CBDFC289C257B00A472CF /* SpringAnimationApp.app */,
+				2F5CBE20289D760D00A472CF /* AnimationApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F5CBDFE289C257B00A472CF /* SpringAnimationApp */ = {
+		2F5CBE22289D760D00A472CF /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				2F5CBDFF289C257B00A472CF /* AppDelegate.swift */,
-				2F5CBE01289C257B00A472CF /* SceneDelegate.swift */,
-				2F5CBE03289C257B00A472CF /* ViewController.swift */,
-				2F5CBE13289C2B7E00A472CF /* Extension + UIButton.swift */,
-				2F5CBE05289C257B00A472CF /* Main.storyboard */,
-				2F5CBE08289C257D00A472CF /* Assets.xcassets */,
-				2F5CBE0A289C257D00A472CF /* LaunchScreen.storyboard */,
-				2F5CBE0D289C257D00A472CF /* Info.plist */,
+				2F5CBE23289D760D00A472CF /* AppDelegate.swift */,
+				2F5CBE25289D760D00A472CF /* SceneDelegate.swift */,
+				2F5CBE27289D760D00A472CF /* ViewController.swift */,
+				2F5CBE3C289EE11900A472CF /* AnimacionData.swift */,
+				2F5CBE3A289ED13400A472CF /* Extencion + UIButton.swift */,
+				2F5CBE29289D760D00A472CF /* Main.storyboard */,
+				2F5CBE2C289D760F00A472CF /* Assets.xcassets */,
+				2F5CBE2E289D760F00A472CF /* LaunchScreen.storyboard */,
+				2F5CBE31289D760F00A472CF /* Info.plist */,
 			);
-			path = SpringAnimationApp;
+			path = AnimationApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F5CBDFB289C257B00A472CF /* SpringAnimationApp */ = {
+		2F5CBE1F289D760D00A472CF /* AnimationApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F5CBE10289C257D00A472CF /* Build configuration list for PBXNativeTarget "SpringAnimationApp" */;
+			buildConfigurationList = 2F5CBE34289D760F00A472CF /* Build configuration list for PBXNativeTarget "AnimationApp" */;
 			buildPhases = (
-				2F5CBDF8289C257B00A472CF /* Sources */,
-				2F5CBDF9289C257B00A472CF /* Frameworks */,
-				2F5CBDFA289C257B00A472CF /* Resources */,
+				2F5CBE1C289D760D00A472CF /* Sources */,
+				2F5CBE1D289D760D00A472CF /* Frameworks */,
+				2F5CBE1E289D760D00A472CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SpringAnimationApp;
-			productName = SpringAnimationApp;
-			productReference = 2F5CBDFC289C257B00A472CF /* SpringAnimationApp.app */;
+			name = AnimationApp;
+			packageProductDependencies = (
+				2F5CBE38289D786A00A472CF /* SpringAnimation */,
+			);
+			productName = AnimationApp;
+			productReference = 2F5CBE20289D760D00A472CF /* AnimationApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F5CBDF4289C257B00A472CF /* Project object */ = {
+		2F5CBE18289D760D00A472CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					2F5CBDFB289C257B00A472CF = {
+					2F5CBE1F289D760D00A472CF = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 2F5CBDF7289C257B00A472CF /* Build configuration list for PBXProject "SpringAnimationApp" */;
+			buildConfigurationList = 2F5CBE1B289D760D00A472CF /* Build configuration list for PBXProject "AnimationApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,60 +121,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 2F5CBDF3289C257B00A472CF;
+			mainGroup = 2F5CBE17289D760D00A472CF;
 			packageReferences = (
-				2F5CBE15289D457200A472CF /* XCRemoteSwiftPackageReference "Spring" */,
-				2F5CBE16289D46FC00A472CF /* XCRemoteSwiftPackageReference "SpringAnimation" */,
+				2F5CBE37289D786A00A472CF /* XCRemoteSwiftPackageReference "SpringAnimation" */,
 			);
-			productRefGroup = 2F5CBDFD289C257B00A472CF /* Products */;
+			productRefGroup = 2F5CBE21289D760D00A472CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F5CBDFB289C257B00A472CF /* SpringAnimationApp */,
+				2F5CBE1F289D760D00A472CF /* AnimationApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F5CBDFA289C257B00A472CF /* Resources */ = {
+		2F5CBE1E289D760D00A472CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5CBE0C289C257D00A472CF /* LaunchScreen.storyboard in Resources */,
-				2F5CBE09289C257D00A472CF /* Assets.xcassets in Resources */,
-				2F5CBE07289C257B00A472CF /* Main.storyboard in Resources */,
+				2F5CBE30289D760F00A472CF /* LaunchScreen.storyboard in Resources */,
+				2F5CBE2D289D760F00A472CF /* Assets.xcassets in Resources */,
+				2F5CBE2B289D760D00A472CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F5CBDF8289C257B00A472CF /* Sources */ = {
+		2F5CBE1C289D760D00A472CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5CBE04289C257B00A472CF /* ViewController.swift in Sources */,
-				2F5CBE00289C257B00A472CF /* AppDelegate.swift in Sources */,
-				2F5CBE02289C257B00A472CF /* SceneDelegate.swift in Sources */,
-				2F5CBE14289C2B7E00A472CF /* Extension + UIButton.swift in Sources */,
+				2F5CBE28289D760D00A472CF /* ViewController.swift in Sources */,
+				2F5CBE3D289EE11900A472CF /* AnimacionData.swift in Sources */,
+				2F5CBE24289D760D00A472CF /* AppDelegate.swift in Sources */,
+				2F5CBE26289D760D00A472CF /* SceneDelegate.swift in Sources */,
+				2F5CBE3B289ED13400A472CF /* Extencion + UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2F5CBE05289C257B00A472CF /* Main.storyboard */ = {
+		2F5CBE29289D760D00A472CF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F5CBE06289C257B00A472CF /* Base */,
+				2F5CBE2A289D760D00A472CF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2F5CBE0A289C257D00A472CF /* LaunchScreen.storyboard */ = {
+		2F5CBE2E289D760F00A472CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F5CBE0B289C257D00A472CF /* Base */,
+				2F5CBE2F289D760F00A472CF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2F5CBE0E289C257D00A472CF /* Debug */ = {
+		2F5CBE32289D760F00A472CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		2F5CBE0F289C257D00A472CF /* Release */ = {
+		2F5CBE33289D760F00A472CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +296,7 @@
 			};
 			name = Release;
 		};
-		2F5CBE11289C257D00A472CF /* Debug */ = {
+		2F5CBE35289D760F00A472CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringAnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -307,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.Swiftbook.SpringAnimationApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.Swiftbook.AnimationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,7 +323,7 @@
 			};
 			name = Debug;
 		};
-		2F5CBE12289C257D00A472CF /* Release */ = {
+		2F5CBE36289D760F00A472CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,7 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringAnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.Swiftbook.SpringAnimationApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.Swiftbook.AnimationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,20 +353,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F5CBDF7289C257B00A472CF /* Build configuration list for PBXProject "SpringAnimationApp" */ = {
+		2F5CBE1B289D760D00A472CF /* Build configuration list for PBXProject "AnimationApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F5CBE0E289C257D00A472CF /* Debug */,
-				2F5CBE0F289C257D00A472CF /* Release */,
+				2F5CBE32289D760F00A472CF /* Debug */,
+				2F5CBE33289D760F00A472CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F5CBE10289C257D00A472CF /* Build configuration list for PBXNativeTarget "SpringAnimationApp" */ = {
+		2F5CBE34289D760F00A472CF /* Build configuration list for PBXNativeTarget "AnimationApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F5CBE11289C257D00A472CF /* Debug */,
-				2F5CBE12289C257D00A472CF /* Release */,
+				2F5CBE35289D760F00A472CF /* Debug */,
+				2F5CBE36289D760F00A472CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -366,15 +374,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2F5CBE15289D457200A472CF /* XCRemoteSwiftPackageReference "Spring" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/LexDeBash/Spring";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		2F5CBE16289D46FC00A472CF /* XCRemoteSwiftPackageReference "SpringAnimation" */ = {
+		2F5CBE37289D786A00A472CF /* XCRemoteSwiftPackageReference "SpringAnimation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/LexDeBash/SpringAnimation";
 			requirement = {
@@ -383,6 +383,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F5CBE38289D786A00A472CF /* SpringAnimation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F5CBE37289D786A00A472CF /* XCRemoteSwiftPackageReference "SpringAnimation" */;
+			productName = SpringAnimation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 2F5CBDF4289C257B00A472CF /* Project object */;
+	rootObject = 2F5CBE18289D760D00A472CF /* Project object */;
 }

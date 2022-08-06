@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     private var animationStarted = false
     
+    @IBOutlet var springAnimacionView: SpringView!
     @IBAction func startCoreAnimacion(_ sender: UIButton) {
         sender.pulsate()
         UIView.animate(
